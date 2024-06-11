@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 // about me
 
 const aboutMePoints = [
-    "Cheerful, optimistic, and driven to find my next career challenge.",
-    "Committed to continuous learning and skill enhancement.",
-    "Passionately up-to-date with the latest technological trends.",
-    "Eager to create a positive global impact through my work.",
-    "Proven ability to gel with diverse teams and lead effectively."
+  "Energetic and optimistic, always seeking new career challenges.",
+  "Dedicated to continuous learning and professional development.",
+  "Passionate about emerging technologies and their applications.",
+  "Eager to create a positive global impact through my work.",
+  "Effective collaborator and team leader, thriving in diverse environments.",
   ]
   
 

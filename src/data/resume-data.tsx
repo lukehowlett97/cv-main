@@ -28,31 +28,26 @@ export const RESUME_DATA: ResumeDataType = {
   location: "Norwich, UK",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Data Analyst with a satellite navigation background.",
+    "Data Analyst | GNSS Engineer | Expert in Satellite Navigation and Data Science",
   summary:
-    "As a Data Analyst with a robust understanding of GNSS and mathematical modelling, I excel in transforming complex data into actionable insights. My expertise is in utilizing Python and its powerful libraries to analyse, visualise, and interpret large datasets. I bring a problem-solving mindset and analytical prowess to drive data-driven decisions and strategies.",
+    "As a Data Analyst specializing in GNSS and mathematical modeling, I excel at converting complex data into actionable insights. Proficient in Python, I leverage powerful libraries to analyse, visualise, and interpret large datasets. I am driven by a problem-solving mindset and strong analytical skills to support data-driven decision-making and strategy development.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "lukehowlett97@gmail.com",
-    tel: "+4811111111",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/LukeHowlett97",
+        url: "https://github.com/LukeCHC",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/luke-howlett97/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
     ],
+    tel: ""
   },
   education: [
     {
@@ -65,40 +60,33 @@ export const RESUME_DATA: ResumeDataType = {
   work: [
     {
       company: "CHC Nav",
-      link: "https://chcnav.com",
-      badges: ["In-Office"],
-      title: "GNSS Engineer/ Data Analyst",
+      link: "https://ichcgnss.co.uk/",
+      badges: [""],
+      title: "",
       logo: ParabolLogo,
       start: "2020",
       end: "Present",
       description:[
-        "Lead Member of a Small R&D Team in Satellite Navigation: Spearheaded multiple roles, demonstrating exceptional adaptability and expertise in handling complex projects under the satellite navigation domain",
-        "Advanced Data Management and Visualization: Developed and managed extensive data pipelines encompassing data retrieval, formatting, processing, analysis, visualization, and automation. Specialized in crafting presentation-worthy visualizations and interactive dashboards for insghtful data exploration.",
-        "Scientific Modeling and Mathematical Analysis: Proficient in modeling intricate physical phenomena, including satellite orbits and atmospheric effects on electromagnetic waves. Applied advanced mathematics to perform precise coordinate transformations and matrix calculations, leveraging my strong mathematical background.", 
-        "Professional Development and Industry Engagement: Actively participated in international business trips, conferences, and expos across Europe, fostering industry connections and staying abreast of emerging trends. Collaborated on joint projects with other leading companies and academic institutions, including Imperial College and NASA, to enhance project outcomes and promote knowledge exchange.",
+        "Lead Member of a Small R&D Team: Responsible for a variety of tasks, demonstrating flexibility and efficiency in achieving objectives.",
+        "Data Engineering and System Deployment: Designed, built, automated and deployed sophisticated data pipelines and systems. significantly improving efficiency and optimizing processes.",
+        "Comprehensive Data and Scientific Analysis: Utilised statistical analysis and machine learning techniques to model and interpret GNSS data. Proficient in applying linear algebra and coordinate transformations to understand satellite dynamics",
+        "Data visualisation and Reporting: Developed and presented interactive dashboards and visualisations in both python and javascript to stakeholders. Showcasing real-time data monitoring and valuable insights into GNSS data.", 
+        "Professional Development and Industry Engagement: Participated in international business trips, conferences, and expos across Europe, building industry connections and developing business relationships. Collaborated on joint projects with other leading companies and academic institutions, including Imperial College and NASA.",
     ]
       }
     
   ],
-  skills: [
-    "Python",
-    "Pandas",
-    "SQL",
-    "Javascript",
-    "HTML/PHP/CSS",
-  ],
   projects: [
     {
-      title: "Sky Map",
+      title: "Real-Time Satellite Tracker",
       techStack: [
         "Work Project",
-        "GNSS",
-        "Python",
         "Pandas",
         "Streamlit",
+        "Kepler's Laws",
         "Coordinate Transformations",
       ],
-      description: "Downloads GPS broadcast ephemeris and plots satellite positions",
+      description: "GIS tool to visualise live satellite positions and ground reference stations.",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -106,10 +94,10 @@ export const RESUME_DATA: ResumeDataType = {
       },
     },
     {
-      title: "Bla Bla",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "SV Elevation Calculator",
+      techStack: ["Work Project", "Numpy", "Matrix Operations"],
       description:
-        "I haven't decided what I am putting here yet",
+        "Open source tool I optimised to calculate satellite elevation and azimuth.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
@@ -118,9 +106,9 @@ export const RESUME_DATA: ResumeDataType = {
     },
     {
       title: "Group Chat Dashboard",
-      techStack: ["Personal Project", "Python", ""],
+      techStack: ["Personal Project", "Python", "Containerisation"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Webapp showcasing visualisations and insights into my friend's groupchat, depoloyed on docker.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",

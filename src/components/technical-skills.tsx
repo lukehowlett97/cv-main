@@ -4,8 +4,12 @@ import React from 'react';
 
 const TechincalSkills: React.FC = () => {
   // Replace with your actual tools and technologies
-  const tools = ['Python', 'Mathematics (BSc.)', 'SQL', 'Git', 'Docker',  'Data Visualization',
-   'Machine Learning', 'Statistics', 'Cloud Platforms', 'Web Development', 'Mathematical Modelling', 'Chat GPT', 'Prompt Engeering'  ];
+  const tools = ['Python', 'Mathematics (BSc.)', 'Data Engineering', 
+  'Data Analysis', 'Data Science',  'Data Visualisation', 
+  'Machine Learning', 'Statistics', 'Cloud Platforms', 
+  'Web Development', 'Project Management', 'System Deployment', 
+  'Version Control', 'Mathematical Modelling','Data Modelling', 
+  'SQL', 'Docker', 'GIS'  ];
 
   return (
     <div>
